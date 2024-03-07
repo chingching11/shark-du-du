@@ -1,7 +1,7 @@
 import React from 'react'
 
-const TextSection = ({text}) => {
-    const {title, description} = text
+const TextSection = ({textData}) => {
+    const {title, description} = textData
   return (
     <div>
         <h1>{title}</h1>

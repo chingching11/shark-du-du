@@ -1,6 +1,6 @@
 import React from 'react'
-import Image from 'next/image' 
 import TextSection from './TextSection';
+import ImageSection from './ImageSection';
 
 const data = [
     {type: 'image', value: '/assets/images/shark.png', alt: 'baby shark image', imageWidth: 50, imageHeight: 50},
@@ -20,9 +20,9 @@ let infoList;
 if (data) {
     infoList = data.map((d, index) => {
         if(d.type === 'image') {
-            return <Image key={index} src={d.value} alt={d.alt} width={d.imageWidth} height={d.imageHeight}/>
+            return <ImageSection imageData = {d} key={index} />
         } else if (d.type === 'text') {
-            return <TextSection text = {d} key={index}/>
+            return <TextSection textData = {d} key={index}/>
         }
     })
 }
