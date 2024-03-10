@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Nav />
-        <main className="container mx-auto px-4 py-8 flex justify-center">         
+        <main className="container flex mx-auto px-4 py-8 justify-center text-center">         
             {children}
         </main>     
       </body>

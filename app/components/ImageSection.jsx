@@ -5,7 +5,7 @@ const ImageSection = ({imageData}) => {
     const {value, alt, imageWidth, imageHeight} = imageData
   return (
     <div>
-        <Image src={value} alt={alt} width={imageWidth} height={imageHeight}/>
+        <Image className="mx-auto" src={value} alt={alt} width={imageWidth} height={imageHeight}/>
     </div>
   )
 }

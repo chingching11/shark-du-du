@@ -3,7 +3,7 @@ import TextSection from './TextSection';
 import ImageSection from './ImageSection';
 
 const data = [
-    {type: 'image', value: '/assets/images/shark.png', alt: 'baby shark image', imageWidth: 50, imageHeight: 50},
+    {type: 'image', value: '/assets/images/shark.png', alt: 'baby shark image', imageWidth: 100, imageHeight: 100},
     {type: 'text', title: 'Welcome to Shark Du Du Daycare', description: 'dkfjasjfjflijsdfjesafj'},
     {type: 'image', value: '/assets/images/shark.png', alt: 'baby shark image', imageWidth: 50, imageHeight: 50},
     {type: 'text', title: 'Welcome to Shark Du Du Daycare', description: 'dkfjasjfjflijsdfjesafj'},
